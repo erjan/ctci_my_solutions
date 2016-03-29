@@ -1,11 +1,11 @@
 
 public class stack {
-	
+
 	node top ;
-	
+
 	public void push(int newdata){
 		node t = new node(newdata) ;
-		
+
 		t.next = top ;
 		top = t ;
 	}
@@ -16,9 +16,10 @@ public class stack {
 			return result ;
 		}
 		return null ;
-		
-		
+
+	    	
 	}
+
 	public int peek(){
 		return top.data ;
 	}
